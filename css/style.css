@@ -133,7 +133,7 @@
 .wrapper-subTitle {
   font-size: 16px;
   padding: 20px 0;
-  color: gray;
+  color: lightgray;
 }
 
 /* responsive design */
@@ -270,7 +270,7 @@ fieldset {
 @media all and (min-width: 768px) {
   .footer-frame {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
 
