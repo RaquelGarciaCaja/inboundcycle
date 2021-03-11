@@ -48,6 +48,16 @@
   color: orange;
 }
 
+/* separator image*/
+.separator-image {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  background-image: url("../img/separator-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /* wrapper */
 .wrapper {
   padding: 20px;
