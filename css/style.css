@@ -47,3 +47,123 @@
 .social-icons-link {
   color: orange;
 }
+
+/* wrapper */
+.wrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* responsive design */
+@media all and (min-width: 768px) {
+  .wrapper {
+    padding: 20px 120px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .wrapper {
+    padding: 0 180px;
+    flex-direction: row;
+  }
+}
+
+.wrapper-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-book {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.ebook {
+  display: none;
+}
+
+/* responsive design */
+@media all and (min-width: 768px) {
+  .ebook {
+    display: flex;
+    position: absolute;
+    top: 166px;
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .ebook {
+    top: 174px;
+  }
+}
+
+.wrapper-titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrapper-title {
+  border-bottom: 1px solid lightgray;
+  padding: 20px 0;
+  color: orange;
+}
+
+/* responsive design */
+@media all and (min-width: 768px) {
+  .wrapper-title {
+    padding: 40px 280px 80px 0;
+  }
+}
+
+.wrapper-subTitle {
+  font-size: 16px;
+  padding: 20px 0;
+  color: gray;
+}
+
+/* responsive design */
+@media all and (min-width: 768px) {
+  .wrapper-subTitle {
+    padding: 30px 280px 10px 0;
+  }
+}
+
+.wrapper-paragraph {
+  padding: 20px 0 20px 0;
+}
+
+/* responsive design */
+@media all and (min-width: 768px) {
+  .wrapper-paragraph {
+    padding: 15px 0;
+  }
+}
+
+.asterisk {
+  text-decoration: none;
+  color: orange;
+}
+
+.emphasizes {
+  text-align: center;
+  padding: 15px;
+}
+
+/* responsive design */
+@media all and (min-width: 768px) {
+  .emphasizes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+  }
+}
+
+.emphasizes-text {
+  text-transform: uppercase;
+}
