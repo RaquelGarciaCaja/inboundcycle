@@ -22,3 +22,28 @@
     justify-content: space-around;
   }
 }
+
+.logotype {
+  height: 18px;
+}
+
+.social-icons {
+  display: flex;
+  list-style: none;
+  padding-top: 10px;
+}
+
+/* responsive design */
+@media all and (min-width: 768px) {
+  .social-icons {
+    padding-top: 0;
+  }
+}
+
+.social-eachIcon {
+  padding: 3px;
+}
+
+.social-icons-link {
+  color: orange;
+}
