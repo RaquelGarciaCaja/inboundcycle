@@ -245,3 +245,69 @@ fieldset {
   background-color: orange;
   cursor: pointer;
 }
+
+/* footer */
+.footer-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  background-color: grey;
+  padding: 40px 100px;
+}
+
+/* responsive design */
+@media all and (min-width: 768px) {
+  .footer-frame {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.footer-containerImg {
+  display: flex;
+  justify-content: center;
+}
+.footer-moreInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  padding-top: 20px;
+}
+
+/* responsive design */
+@media all and (min-width: 768px) {
+  .footer-moreInfo {
+    padding-top: 0px;
+  }
+}
+
+.footer-privacyList {
+  display: flex;
+  list-style: none;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.footer-eachPrivacy {
+  padding: 0 10px;
+  font-size: 12px;
+}
+
+.footer-copyRight {
+  color: white;
+  padding: 0 10px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.borders {
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
