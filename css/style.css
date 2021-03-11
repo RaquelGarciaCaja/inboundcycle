@@ -167,3 +167,81 @@
 .emphasizes-text {
   text-transform: uppercase;
 }
+
+/* aside */
+.aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  background-color: lightgrey;
+  padding: 20px;
+}
+
+/* responsive design */
+@media all and (min-width: 768px) {
+  .aside {
+    align-self: none;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .aside {
+    align-self: flex-start;
+    margin: 40px 0 0 40px;
+  }
+}
+
+.aside-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: center;
+}
+
+.aside-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+fieldset {
+  border: 0;
+}
+
+.aside-title {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: orange;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.aside-input {
+  padding: 6px;
+  margin: 5px 0;
+}
+
+.aside-check {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px 0;
+  font-size: 11px;
+}
+
+.aside-input {
+  margin-right: 3px;
+}
+
+.aside-privacy {
+  text-decoration: none;
+  color: orange;
+}
+
+.aside-button {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: orange;
+  cursor: pointer;
+}
